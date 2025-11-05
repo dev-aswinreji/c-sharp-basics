@@ -1,0 +1,14 @@
+/home/user/CODE/C-SHARP/bin/Debug/net9.0/C-SHARP
+/home/user/CODE/C-SHARP/bin/Debug/net9.0/C-SHARP.deps.json
+/home/user/CODE/C-SHARP/bin/Debug/net9.0/C-SHARP.runtimeconfig.json
+/home/user/CODE/C-SHARP/bin/Debug/net9.0/C-SHARP.dll
+/home/user/CODE/C-SHARP/bin/Debug/net9.0/C-SHARP.pdb
+/home/user/CODE/C-SHARP/obj/Debug/net9.0/C-SHARP.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/CODE/C-SHARP/obj/Debug/net9.0/C-SHARP.AssemblyInfoInputs.cache
+/home/user/CODE/C-SHARP/obj/Debug/net9.0/C-SHARP.AssemblyInfo.cs
+/home/user/CODE/C-SHARP/obj/Debug/net9.0/C-SHARP.csproj.CoreCompileInputs.cache
+/home/user/CODE/C-SHARP/obj/Debug/net9.0/C-SHARP.dll
+/home/user/CODE/C-SHARP/obj/Debug/net9.0/refint/C-SHARP.dll
+/home/user/CODE/C-SHARP/obj/Debug/net9.0/C-SHARP.pdb
+/home/user/CODE/C-SHARP/obj/Debug/net9.0/C-SHARP.genruntimeconfig.cache
+/home/user/CODE/C-SHARP/obj/Debug/net9.0/ref/C-SHARP.dll
