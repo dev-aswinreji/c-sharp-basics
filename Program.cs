@@ -10,5 +10,10 @@ class Program
        Console.WriteLine(i);
        Console.Write(i);
     }
+    int j = 0;
+    while (j < 10)
+    {
+        Console.WriteLine(j++);
+    }
   }
 }
