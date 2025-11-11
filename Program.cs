@@ -23,15 +23,33 @@ class Program
     // Console.WriteLine($"Hello {name}, you are {age} years old!");
 
 
-    Console.Write("Enter number: ");
-    int num1 = Convert.ToInt32(Console.ReadLine());
+    // This method is properly working but we need to catch erros such as if user input other values instead of numbers
+    
+    // Console.Write("Enter number: ");
+    // int num1 = Convert.ToInt32(Console.ReadLine());
+    //
+    // Console.Write("Enter number: ");
+    // int num2 = Convert.ToInt32(Console.ReadLine());
+    //
+    // int sum = num1 + num2;
+    // Console.WriteLine($"Sum is {sum}");
 
-    Console.Write("Enter number: ");
-    int num2 = Convert.ToInt32(Console.ReadLine());
+    Console.Write("Enter first number: ");
+    if(!int.TryParse(Console.ReadLine(), out int num1))
+    {
+        Console.WriteLine("Invalid input!");
+        return;
+    }
+
+    Console.Write("Enter second number: ");
+    if(!int.TryParse(Console.ReadLine(), out int num2))
+    {
+      Console.WriteLine("Invalid input!");
+      return;
+    }
 
     int sum = num1 + num2;
     Console.WriteLine($"Sum is {sum}");
-
   }
 
 }
