@@ -66,23 +66,39 @@ class Program
   
   // Check if number is Positive
 
-  Console.Write("Enter a number: ");
-  if(int.TryParse(Console.ReadLine(),out int num))
-  {
-    if( num > 0 ){
-      Console.Write("Num is positive");
-    }else if(num < 0){
-      Console.Write("Num is negative");
-    }else
-    {
-     Console.Write("Num is Zero");   
-    }
+//   Console.Write("Enter a number: ");
+//   if(int.TryParse(Console.ReadLine(),out int num))
+//   {
+//     if( num > 0 ){
+//       Console.Write("Num is positive");
+//     }else if(num < 0){
+//       Console.Write("Num is negative");
+//     }else
+//     {
+//      Console.Write("Num is Zero");   
+//     }
+//
+//   }else {
+//      Console.Write("Invalid Input!");
+//      return;
+//   }
 
-  }else {
-     Console.Write("Invalid Input!");
-     return;
-  }
+// Simple Login Check 
+
+
+  string pass = "useruser";
+  
+  Console.Write("Enter password: ");
+
+  if(pass == Console.ReadLine())
+{
+  Console.WriteLine("Access Granted!");
+}else
+{
+    Console.WriteLine("Access Denied!");
 }
+
+ }
 
 }
 
