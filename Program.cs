@@ -14,13 +14,24 @@ class Program
     //
     // console.write($"{age} \n{salary} \n{grade} \n{isstudent} \n{name}");
     // Console.ReadKey(); // Waits for a key press
-       Console.Write("Enter your name: ");
-       string name = Console.ReadLine();
-       
-       Console.Write("Enter your age: ");
-       int age = Convert.ToInt32(Console.ReadLine());
+    // Console.Write("Enter your name: ");
+    // string name = Console.ReadLine();
+    //
+    // Console.Write("Enter your age: ");
+    // int age = Convert.ToInt32(Console.ReadLine());
+    //
+    // Console.WriteLine($"Hello {name}, you are {age} years old!");
 
-       Console.WriteLine($"Hello {name}, you are {age} years old!");
+
+    Console.Write("Enter number: ");
+    int num1 = Convert.ToInt32(Console.ReadLine());
+
+    Console.Write("Enter number: ");
+    int num2 = Convert.ToInt32(Console.ReadLine());
+
+    int sum = num1 + num2;
+    Console.WriteLine($"Sum is {sum}");
+
   }
 
 }
