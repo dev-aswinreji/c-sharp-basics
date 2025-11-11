@@ -34,22 +34,58 @@ class Program
     // int sum = num1 + num2;
     // Console.WriteLine($"Sum is {sum}");
 
-    Console.Write("Enter first number: ");
-    if(!int.TryParse(Console.ReadLine(), out int num1))
+  //   Console.Write("Enter first number: ");
+  //   if(!int.TryParse(Console.ReadLine(), out int num1))
+  //   {
+  //       Console.WriteLine("Invalid input!");
+  //       return;
+  //   }
+  //
+  //   Console.Write("Enter second number: ");
+  //   if(!int.TryParse(Console.ReadLine(), out int num2))
+  //   {
+  //     Console.WriteLine("Invalid input!");
+  //     return;
+  //   }
+  //
+  //   int sum = num1 + num2;
+  //   Console.WriteLine($"Sum is {sum}");
+  // }
+
+
+  // Logical Operator 
+  // Equal to ==
+  // Not Equal !=
+  // Greater than > 
+  // Less than < 
+  // Greater or equal >=
+  // Less or equal <=
+  // AND && 
+  //
+  
+  
+  // Check if number is Positive
+
+  Console.Write("Enter a number: ");
+  if(int.TryParse(Console.ReadLine(),out int num))
+  {
+    if( num > 0 ){
+      Console.Write("Num is positive");
+    }else if(num < 0){
+      Console.Write("Num is negative");
+    }else
     {
-        Console.WriteLine("Invalid input!");
-        return;
+     Console.Write("Num is Zero");   
     }
 
-    Console.Write("Enter second number: ");
-    if(!int.TryParse(Console.ReadLine(), out int num2))
-    {
-      Console.WriteLine("Invalid input!");
-      return;
-    }
-
-    int sum = num1 + num2;
-    Console.WriteLine($"Sum is {sum}");
+  }else {
+     Console.Write("Invalid Input!");
+     return;
   }
+}
 
 }
+
+
+
+
