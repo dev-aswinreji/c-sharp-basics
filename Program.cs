@@ -2,18 +2,9 @@
 
 class Program 
 {
-  static void Main()
+  static void Main(string[] args)
   {
-    Console.WriteLine("Follow, LinuxTLDR!");
-    for (int i = 0; i < 10; i++)
-    {
-       Console.WriteLine(i);
-       Console.Write(i);
-    }
-    int j = 0;
-    while (j < 10)
-    {
-        Console.WriteLine(j++);
-    }
+    Console.WriteLine("Hello, World!");
+    Console.ReadKey(); // Waits for a key press
   }
 }
