@@ -8,6 +8,7 @@ class LinkedList
    {
      LinkedList link = new LinkedList();
     Console.Write("hello world");
+    class Lis() = new LinkedList();
    } 
 }
 
