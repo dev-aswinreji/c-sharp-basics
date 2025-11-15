@@ -6,9 +6,8 @@ class LinkedList
 {
    static void Main(string[] args)
    {
-     LinkedList link = new LinkedList();
     Console.Write("hello world");
-    class Lis() = new LinkedList();
+    LinkedList li = new LinkedList();
    } 
 }
 
